@@ -9,11 +9,11 @@ public class Exercicio3 {
 	public static void main(String[] args) {
 
 		Scanner leia = new Scanner(System.in);
-		Set<String> num = new HashSet<String>();
+		Set<Integer> num = new HashSet<Integer>();
 
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Digite uma numero: ");
-			String num_rec = leia.nextLine();
+			int num_rec = leia.nextInt();
 			num.add(num_rec);
 
 		}
